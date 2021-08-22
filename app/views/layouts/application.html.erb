@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quizapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <%=link_to image_tag("logo.png"), "/" %>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer>
+      <%=link_to "問題の追加はこちら", quizzes_new_path %>
+    </footer>
+  </body>
+</html>

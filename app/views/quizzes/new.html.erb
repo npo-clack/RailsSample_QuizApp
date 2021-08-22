@@ -1,0 +1,15 @@
+<%= form_with scope: :post, url: quizzes_create_path do |form| %>
+  <div class="field">
+　  <%= form.label :question, '問題（例：Thank you）' %>
+    <%= form.text_field :question %>
+  </div>
+  <div class="field">
+    <%= form.label :answer, '解答（例：英語）' %>
+    <%= form.text_field :answer %>
+  </div>
+  <div class="field">
+    <%= form.label :description, '説明（読み方など）' %>
+    <%= form.text_area :description %> 
+  </div>
+  <%= form.submit value:"追加！" %>
+<% end %>

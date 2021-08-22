@@ -1,0 +1,3 @@
+<h1>問題</h1>
+<p><%= @question.question %></p>
+<%= button_to "解答", quizzes_answer_path, {method: :get, params: {id: @question.id}} %>

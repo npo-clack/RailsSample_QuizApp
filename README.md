@@ -1,24 +1,8 @@
-# README
+# クイズアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サンプルアプリ
+https://polar-forest-09833.herokuapp.com/
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 作成手順
+下記リンクをご参照ください（微妙に穴埋め式）
+https://docs.google.com/presentation/d/1xh4cnYHkZ14BFW0NnS4vXTnf2I0_Zwwq/edit?usp=sharing&ouid=110949804147674416381&rtpof=true&sd=true
